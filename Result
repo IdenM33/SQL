@@ -1,5 +1,6 @@
 1 Вывести сколько заказов было оформлено, и сколько в итоге получено. Не учитывать тестовые заказы.
 
+
 SELECT CASE 
 WHEN ClientOrderStateID = 1 THEN ‘Оформлен’
 WHEN ClientOrderStateID = 2 THEN ‘Получен’ END AS OrderState,
